@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
     /*start code from src index*/ 
     entry: "./src/index.tsx",
+    devtool: "eval-source-map",
     resolve: {
         extensions: ['.js', '.ts', '.tsx']
     },
